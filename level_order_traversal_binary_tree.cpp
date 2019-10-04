@@ -45,6 +45,7 @@ int main()
 	root->left->left = newNode(4); 
 	root->left->right = newNode(5); 
 	cout << "Level Order traversal of binary tree is \n"; 
-	printLevelOrder(root); 
+	printLevelOrder(root);
+	cout<<"\n";
 	return 0; 
 } 
